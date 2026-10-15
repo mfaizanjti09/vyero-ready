@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "cleanUrls": false,
+  "rewrites": [
+    {
+      "source": "/product/:slug",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/policy",
+      "destination": "/policy.html"
+    },
+    {
+      "source": "/api/store",
+      "destination": "/api/store.json"
+    }
+  ]
+}
